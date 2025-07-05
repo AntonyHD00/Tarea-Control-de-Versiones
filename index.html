@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Selector de Humor del Día</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>¿Cómo te sientes hoy? 😄</h1>
+    <select id="moodSelector">
+      <option value="">Elige una emoción...</option>
+      <option value="feliz">Feliz</option>
+      <option value="triste">Triste</option>
+      <option value="estresado">Estresado</option>
+      <option value="enamorado">Enamorado</option>
+      <option value="curioso">Curioso</option>
+    </select>
+    <div id="moodDisplay" class="mood-box">
+      <div id="emoji">🤔</div>
+      <p id="phrase">Tu estado aparecerá aquí.</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
